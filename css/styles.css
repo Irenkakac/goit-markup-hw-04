@@ -173,6 +173,8 @@ a {
 .first-section {
     padding: 188px 0;
     background-color: #2E2F42;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url('../images/hero/bg.png');
+    background-size: cover;
 }
 
 .main-name {
@@ -245,6 +247,10 @@ a {
     color: #434455;
 }
 
+.social-list-icon-menu :hover,
+.social-list-icon-menu :focus {
+    fill: #4D5AE5;
+}
 
 /*  Third Section  */
 
@@ -302,7 +308,8 @@ a {
 .conteinet-name {
     padding: 32px 16px;
 }
-.team-name {
+.team-name,
+.menu-section-name {
     text-align: center;
     margin-bottom: 8px;
     font-family: 'Roboto', sans-serif;
@@ -316,6 +323,7 @@ a {
 }
 
 .position {
+    margin-bottom: 21.5px;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     Font-style: Regular;
@@ -324,6 +332,39 @@ a {
     Letter-spacing: 0.02em;
     color: #434455;
 }
+
+.social-list-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+.social-list-link :hover,
+.social-list-link :focus {
+    background-color: #4d5ae5;
+}
+
+.social-list-link :hover .social-list-icon,
+.social-list-link :focus .social-list-icon {
+    fill: #ffffff;
+}
+
+
+.social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.menu-section-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /*   FOOTER  */
@@ -359,6 +400,31 @@ a {
     margin-bottom: 16px;
 }
 
+.social-list-icon-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+}
+
+.social-list-icon-footer:hover,
+.social-list-icon-footer:focus {
+    background-color: #4d5ae5;
+}
+
+.social-list-icon-footer:hover .social-list-icon,
+.social-list-icon-footer:focus .social-list-icon {
+    fill: #ffffff;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
 /*  PORTFOLIO  */
 
 .general-info {
