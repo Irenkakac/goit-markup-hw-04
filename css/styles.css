@@ -111,7 +111,7 @@ a {
     margin-right: 76px;
 }
 .logo-nav,
-.below-link {
+.footer {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 800;
@@ -178,8 +178,9 @@ a {
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpeg); 
-
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/img-name.png); 
+    height: 600px;
+    margin: 0 auto;
 }
 
 .main-name {
@@ -392,6 +393,7 @@ a {
     line-height: 1.11;
     color: #2e2f42;
     margin-bottom: 72px;
+    text-align: center;
 }
 .menu-section-item {
     width: calc((100% - 120px) / 6);
@@ -411,10 +413,14 @@ a {
 .menu-section-link:focus {
     border-color: #404bbf;
     color: #404bbf;
+    
 }
 .social-menu-icone {
     fill: currentColor;
 
+}
+.position {
+    margin-bottom: 8px;
 }
 /*   FOOTER  */
 
@@ -452,7 +458,6 @@ a {
 
 .container-footer {
     display: flex;
-    align-items: baseline;
 
 }
 
