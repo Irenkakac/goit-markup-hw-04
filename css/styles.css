@@ -178,7 +178,7 @@ a {
     max-width: 1440px;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/img-name.png); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero/img-name.jpg); 
     height: 600px;
     margin: 0 auto;
 }
@@ -458,6 +458,7 @@ a {
 
 .container-footer {
     display: flex;
+    align-items: baseline:
 
 }
 
